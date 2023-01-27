@@ -25,5 +25,5 @@ jobs:
     
     - name: Run tests
       run: |
-        ./test/main.cpp
+        ./build/masuperlib-test
 

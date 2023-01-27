@@ -21,9 +21,9 @@ jobs:
         mkdir build
         cd build/
         cmake ..
-        make .
+        make 
     
     - name: Run tests
       run: |
-        ./build/masuperlib-test
+        build/masuperlib-test
 

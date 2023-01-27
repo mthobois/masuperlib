@@ -23,6 +23,7 @@ jobs:
         cmake ..
         make .
     
-
-    # Run tests
+    - name: Run tests
+      run: |
+        ./test/main.cpp
 
